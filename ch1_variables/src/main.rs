@@ -12,6 +12,14 @@
  *     cargo build --release // 生成优化的可执行文件，用于生产环境
  * cargo check // 检测
  * cargo run/cargo test  // 运行/测试
+ * 
+ * 3、插件cargo-edit
+ * cargo install cargo-edit // 安装
+ * cargo add dependency_name // 添加库
+ *     cargo add dependency_name@1.2.3 // 指定版本
+ *     cargo add --dev dependency_name // 开发依赖库
+ *     cargo add --build build_dependency_name // 构建依赖库
+ * cargo rm dependency_name // 删除库
  */
 
 /**
