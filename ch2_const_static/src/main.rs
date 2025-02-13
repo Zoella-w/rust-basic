@@ -4,7 +4,7 @@
 static MY_STATIC: i32 = 42;
 static mut MY_MUT_STATIC: i32 = 42;
 
- fn main() {
+fn main() {
     // const
     const SECOND_HOUR: usize = 3_600; // 3600，可读性更强
     const SECOND_DAY: usize = 24 * SECOND_HOUR; // compile-time constant
