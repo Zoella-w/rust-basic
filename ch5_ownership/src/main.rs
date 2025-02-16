@@ -12,14 +12,14 @@ fn main() {
     // 1. copy
     let c1 = 1;
     let c2 = c1;
-    println!("c1: {c1}");
+    println!("c2: {c2}");
 
     // 2. move
     let s1 = String::from("value");
     // let s2 = s1; // s1 的所有权转移给 s2
     // println!("s1: {s1}"); // error
     let s2 = s1.clone(); // 相当于深拷贝
-    println!("s1: {s1}");
+    println!("s2: {s2}");
 
     // get_length(s1);
     // println!("s1: {s1}"); // error
@@ -31,12 +31,12 @@ fn main() {
 }
 
 // 如何返回指针？
-fn dangle() -> String {
+fn _dangle() -> String {
     return "hello".to_owned();
 }
 
 // 不推荐：静态生命周期，污染全局作用域
-fn dangle_static() -> &'static str {
+fn _dangle_static() -> &'static str {
     return "asd";
 }
 
