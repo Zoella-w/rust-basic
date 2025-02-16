@@ -1,0 +1,6 @@
+[package]
+name = "ch14_move_borrow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
