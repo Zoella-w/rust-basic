@@ -32,7 +32,7 @@ impl Drink {
         // }
         println!("buy it");
     }
-    //关联函数
+    // 关联函数（入参没有 self）
     fn new(price: f64) -> Self {
         Drink {
             flavor: Flavor::Fruity,
