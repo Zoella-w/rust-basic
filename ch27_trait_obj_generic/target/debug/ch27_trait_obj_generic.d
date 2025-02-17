@@ -1,0 +1,1 @@
+/Users/wangyueying11/Desktop/learning/rust/rust-basic/ch27_trait_obj_generic/target/debug/ch27_trait_obj_generic: /Users/wangyueying11/Desktop/learning/rust/rust-basic/ch27_trait_obj_generic/src/main.rs
