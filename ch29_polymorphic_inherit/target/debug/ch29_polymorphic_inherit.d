@@ -1,0 +1,1 @@
+/Users/wangyueying11/Desktop/learning/rust/rust-basic/ch29_polymorphic_inherit/target/debug/ch29_polymorphic_inherit: /Users/wangyueying11/Desktop/learning/rust/rust-basic/ch29_polymorphic_inherit/src/main.rs
